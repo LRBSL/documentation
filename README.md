@@ -1,4 +1,3 @@
-# Headline
+# Land Registration Blockchain for Sri Lanka
 
-> An awesome proje
-> We know
+> Home page
