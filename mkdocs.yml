@@ -1,12 +1,8 @@
 site_name: Land Registration Blockchain For Sri Lanka
-theme:
-    name: readthedocs
-    highlightjs: true
-    hljs_languages:
-        - yaml
-        - rust
 nav:
     - Home: index.md
     - User Manaul: user_manual.md
     - System Manaul: system_manual.md
     - About: about.md
+
+extra_css: [css/extra.css]
