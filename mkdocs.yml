@@ -1,1 +1,6 @@
-site_name: My Docs
+site_name: Land Registration Blockchain For Sri Lanka
+theme:
+  name: 'material'
+nav:
+    - Home: index.md
+    - About: about.md
