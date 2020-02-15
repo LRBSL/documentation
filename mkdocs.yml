@@ -1,9 +1,17 @@
-site_name: Land Registration Blockchain For Sri Lanka
+site_name: LRBSL
 theme: readthedocs
+
 nav:
-    - Home: index.md
-    - User Manaul: user_manual.md
-    - System Manaul: system_manual.md
-    - About: about.md
+    - Introduction:
+        - Problem & Solution: introduction/index.md
+    - User Manual:
+        - 'Introduction': 'user_manual/index.md'
+    - System Manaul:
+        - Introduction: system_manual/index.md
+        - Blockchain: system_manual/blockchain.md
+        - Backend: system_manual/backend.md
+        - Frontend: system_manual/frontend.md
+    - Support:
+        - About: support/about.md
 
 extra_css: [css/extra.css]
