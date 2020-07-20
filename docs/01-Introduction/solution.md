@@ -1,17 +1,11 @@
-# Land Registration Blockchain For Sri Lanka
+# Blockchain as a Solution
 
-abstract introduction ...........
+This software implementation was based on the research of *“Permissioned Distributed Ledgers For Land Transactions” by Ms. D. T. Fernando and Dr. D. N. Ranasinghe*.
 
-## Commands
+By this application, we are only addressed two main use cases of the land registration process in Sri Lanka. which are,
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+1. Land ownership changes from a person to another
+2. Land forking/partitioning to two child lands without ownership change
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+In the implementation, **Hyperledger-Fabric** open-source permissioned distributed ledger framework is used for the blockchain and **Angular CLI** is used for the web-based frontend application development.
+**Convector Suite**, a third party framework is used for configurating the Hyperledger-fabric project.
