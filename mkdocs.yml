@@ -3,12 +3,18 @@ theme: readthedocs
 
 nav:
     - Introduction:
-        - '01-Introduction'
+        - Problem: '01-Introduction/problem.md'
+        - Solution: '01-Introduction/solution.md'
     - User Manual:
-        - '02-User-manual'
+        - For Notary: '02-User-manual/for-notary.md'
+        - For Surveyor: '02-User-manual/for-surveyor.md'
+        - For Regional Land Registry: '02-User-manual/for-regional-land-registry.md'
     - System Manaul:
-        - '03-System-manual'
+        - System Diagrams: '03-System-manual/system-diagrams.md'
+        - Backend: '03-System-manual/backend.md'
+        - Blockchain: '03-System-manual/blockchain.md'
+        - Frontend: '03-System-manual/frontend.md'
     - Support:
-        - '04-Support'
+        - About: '04-Support/about.md'
 
 extra_css: [css/extra.css]
