@@ -3,15 +3,12 @@ theme: readthedocs
 
 nav:
     - Introduction:
-        - Problem & Solution: introduction/index.md
+        - '01-Introduction'
     - User Manual:
-        - 'Introduction': 'user_manual/index.md'
+        - '02-User-manual'
     - System Manaul:
-        - Introduction: system_manual/index.md
-        - Blockchain: system_manual/blockchain.md
-        - Backend: system_manual/backend.md
-        - Frontend: system_manual/frontend.md
+        - '03-System-manual'
     - Support:
-        - About: support/about.md
+        - '04-Support'
 
 extra_css: [css/extra.css]
